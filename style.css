@@ -1,8 +1,9 @@
-body{
+body {
     max-width: 1320px;
     margin-right: auto;
     margin-left: auto;
 }
+
 /* img{
         filter: brightness(50%);
 
@@ -113,8 +114,8 @@ body{
     flex-shrink: 0;
     fill: url(resources/New\ Year\ Photo.png), lightgray 50% / cover no-repeat;
     align-items: center;
-padding-left: 300px;
-margin-left: 150px;
+    padding-left: 300px;
+    margin-left: 150px;
     left: 50%;
 
 
@@ -123,13 +124,126 @@ margin-left: 150px;
 .discount-content {
     align-items: center;
 }
-.gifts{
+
+.gifts {
     color: #F00;
-font-family: Inter;
-/* font-size: 24px; */
+    font-family: Inter;
+    /* font-size: 24px; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 50px 140px 50px 140px;
+    /* padding: 5px; */
+}
+
+.portfolio {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 50px 140px 50px 140px;
+
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    width: 896px;
+    margin-left: 140px;
+}
+
+.image-group {
+    border-radius: 16px;
+    background: url(resources/Rectangle\ 3.png), lightgray 0px -35.755px / 100% 142.115% no-repeat;
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+    justify-content: space-around;
+    /* padding: 16px; */
+    margin: 10px;
+}
+
+.image {
+    max-width: 1320px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 210px;
+
+}
+
+.image-group :hover {}
+
+.newsletter {
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-left: 110px;
+
+}
+
+.sub-icon {
+    padding-top: 80px;
+    padding-left: 585px;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+.newsletter .news-text{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
 font-style: normal;
-font-weight: 500;
+font-weight: 900;
 line-height: normal;
-margin: 50px 140px 50px 140px;
-/* padding: 5px; */
+text-transform: capitalize;
+position: absolute;
+padding-left: 450px;
+
+
+}
+.description{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+width: 896px;
+margin-top: 150px;
+margin-left: 240px;
+}
+#email{
+    width: 648px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+font-size: 24px;
+padding-left: 20px;
+justify-content: center;
+margin-left: 130px;
+}
+#subscribe{
+    width: 210px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+font-size: 24px;
+color: #FFF;
+margin-right: 190px;
+
 }
