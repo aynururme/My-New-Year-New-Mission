@@ -1,0 +1,121 @@
+body{
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.profile-picture {
+    margin: 50px 140px 50px 140px;
+    max-width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    /* opacity: 0.8; */
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    color: linear-gradient;
+}
+
+.banner {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 70px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    position: absolute;
+}
+
+.banner-greeting {
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.banner-description {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+    width: 632px;
+
+}
+
+.discount {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700 bold;
+    line-height: normal;
+    margin: 120px;
+}
+
+.holiday {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.category {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.newyear {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    fill: url(resources/New\ Year\ Photo.png), lightgray 50% / cover no-repeat;
+    align-items: center;
+padding-left: 300px;
+    left: 50%
+
+
+}
+
+.discount-content {
+    align-items: center;
+}
+.gifts{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
