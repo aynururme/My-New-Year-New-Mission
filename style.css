@@ -3,6 +3,10 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
+/* img{
+        filter: brightness(50%);
+
+} */
 
 .profile-picture {
     margin: 50px 140px 50px 140px;
@@ -10,6 +14,7 @@ body{
     height: 600px;
     flex-shrink: 0;
     border-radius: 16px;
+    filter: brightness(50%);
     /* opacity: 0.8; */
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     color: linear-gradient;
@@ -34,7 +39,7 @@ body{
 .banner-greeting {
     position: absolute;
     top: 25%;
-    left: 55%;
+    left: 60%;
     transform: translate(-50%, -50%);
     color: #FFF;
     text-align: center;
@@ -49,7 +54,7 @@ body{
 .banner-description {
     position: absolute;
     top: 35%;
-    left: 55%;
+    left: 60%;
     transform: translate(-50%, -50%);
 
     color: #FFF;
@@ -72,7 +77,8 @@ body{
     font-style: normal;
     font-weight: 700 bold;
     line-height: normal;
-    margin: 120px;
+    margin: 180px;
+    padding-left: 250px;
 }
 
 .holiday {
@@ -83,6 +89,9 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin: 180px;
+    margin-top: 20px;
+    padding-left: 250px;
 }
 
 .category {
@@ -94,6 +103,8 @@ body{
     font-weight: 700;
     line-height: normal;
     text-align: center;
+    margin: 180px;
+    padding-left: 250px;
 }
 
 .newyear {
@@ -103,7 +114,8 @@ body{
     fill: url(resources/New\ Year\ Photo.png), lightgray 50% / cover no-repeat;
     align-items: center;
 padding-left: 300px;
-    left: 50%
+margin-left: 150px;
+    left: 50%;
 
 
 }
@@ -114,8 +126,10 @@ padding-left: 300px;
 .gifts{
     color: #F00;
 font-family: Inter;
-font-size: 24px;
+/* font-size: 24px; */
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+margin: 50px 140px 50px 140px;
+/* padding: 5px; */
 }
