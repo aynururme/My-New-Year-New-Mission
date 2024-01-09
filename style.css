@@ -5,11 +5,6 @@ body {
   /* padding-bottom: 50px; */
 }
 
-/* img{
-        filter: brightness(50%);
-
-} */
-
 .profile-picture {
     margin: 50px 140px 50px 140px;
     max-width: 1320px;
@@ -129,13 +124,16 @@ body {
 .gifts {
     color: #F00;
     font-family: Inter;
-    /* font-size: 24px; */
+    font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 500 bolder;
     line-height: normal;
-    margin: 50px 140px 50px 140px;
-    /* padding: 5px; */
+    width: 240px;
+    height: 29px;
+    margin: 50px 140px 50px 145px;
+
 }
+
 
 .portfolio {
     color: #070211;
