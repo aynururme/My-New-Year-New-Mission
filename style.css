@@ -179,7 +179,11 @@ body {
 
 }
 
-.image-group :hover {}
+.image-group img:hover {
+    box-shadow: 0 0 0 10px #000000;
+    transition: .5s ease;
+    border-radius: 10px;
+}
 
 .newsletter {
     width: 1320px;
