@@ -281,77 +281,65 @@ input {
 
 
 }
-.foot-text{
+.foot-text {
     width: 375px;
-    height: 80px; 
+    height: 80px;
     display: flex;
     gap: 150px;
 }
-.address{
+
+.address {
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-width: 375px;
-height: 80px;
-padding-top: 120px;
-padding-left: 140px;
-/* line-height: 40px; 166.667% */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    width: 375px;
+    height: 80px;
+    padding-top: 120px;
+    padding-left: 140px;
+    /* line-height: 40px; 166.667% */
 }
-.image-icon{
+
+.image-icon {
     width: 24px;
     height: 24px;
     /* padding-top: 145px; */
-/* padding-left: px; */
+    /* padding-left: px; */
 
-flex-shrink: 0;
-padding-top: 150px;
-padding-left: 150px;
-padding-bottom: 409px;
+    flex-shrink: 0;
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-bottom: 409px;
 }
-.image-icon2{
-    width: 24px;
-    height: 24px;
-    padding-top: 170px;
-padding-right: 270px;
-}
-#web{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-/* line-height: 40px; 166.667% */
-}
-#number{
+
+#number {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     /* line-height: 40px;  */
- 
-    
+
+
     padding-top: 125px;
     padding-left: 20px;
     padding-bottom: 600px;
     width: 195px;
     height: 40px;
 }
-.web-contacts{
-    display: flex;
-}
-.contact-details{
-    width: 375px;
-height: 80px;
-display: flex;
 
-}
+
+
+
+
+
+
 .contacts{
     display: flex;
 }
-.social-icons{
+
+.social-icons {
     display: flex;
     width: 375px;
     height: 64px;
@@ -359,34 +347,136 @@ display: flex;
     padding-left: 40%;
     gap: 20px;
 }
-.face-icons{
+
+.face-icons {
     width: 64px;
-height: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.copyrights {
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 130px;
+    display: flex;
+}
+
+.unsubscribe {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 700px;
+}
+
+hr {
+    width: 1000px;
+    height: 1px;
+    align-items: center;
+    background: rgba(7, 214, 159, 0.15);
+}
+
+.best-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500 bolder;
+    line-height: normal;
+    width: 240px;
+    height: 29px;
+    margin: 50px 140px 20px 145px;
+
+}
+
+.new-offer-section {
+    width: 1600px;
+    height: 535px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.comingsoon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 340px;
+    height: 60px;
+    margin-left: 140px;
+
+}
+
+.offer-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    width: 393px;
+    margin-left: 140px;
+
+}
+.round-image{
+    width: 463px;
+height: 463px;
+flex-shrink: 0;
+border-radius: 463px;
+border: 15px solid #F00;
+}
+.image-ellipse{
+    width: 364.844px;
+height: 364.844px;
+flex-shrink: 0;
+align-items: center;
+border-radius: 364.844px;
+/* background: url(resources/Ellipse\ 1.png), lightgray -91.279px 0px / 150.038% 100% no-repeat; */
+width: 364px;
+height: 364px;
+padding-left: 50px;
+padding-top: 50px;
+}
+.text{
+    padding-left: 5%;
+}
+.greet-msg{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 126px;
+    height: 58px;
+}
+.msg{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+width: 276px;
+height: 96px;
+}
+.happy-new-year{
+    width: 140px;
+height: 140px;
 flex-shrink: 0;
 }
-.copyrights{
-    color: #fff;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding-left: 130px;
-display: flex;
-}
-.unsubscribe{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding-left: 700px;
-}
-hr{
-    width: 1000px;
-height: 1px;
-align-items: center;
-background: rgba(7, 214, 159, 0.15);
-}
+
+
+
+
 

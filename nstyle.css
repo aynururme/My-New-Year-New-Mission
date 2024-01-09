@@ -46,21 +46,6 @@
     height: 40px;
 }
 
-.web-contacts {
-    display: flex;
-}
-
-.contact-details {
-    width: 375px;
-    height: 80px;
-    display: flex;
-
-}
-
-.contacts {
-    display: flex;
-}
-
 .social-icons {
     display: flex;
     width: 375px;
